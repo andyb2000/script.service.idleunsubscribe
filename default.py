@@ -1,7 +1,7 @@
 import xbmc,time, xbmcgui
 
 # idle time in minutes
-IDLE_TIME_MIN = 5
+IDLE_TIME_MIN = 60
 s = 1
 while True:
 	# do an initial sleep to let things settle first
