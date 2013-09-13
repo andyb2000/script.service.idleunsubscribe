@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Idle Control">
+        <setting label="Idle time in minutes" type="number"   id="idletime" default="60"/>
+    </category>
+</settings>

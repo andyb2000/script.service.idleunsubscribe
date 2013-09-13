@@ -12,5 +12,10 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary lang="en">Auto-Unsubscribe/stop playback if left idle</summary>
+    <description lang="en">Simple script that will monitor when a video is playing (mainly from a TV stream) and 
+	detect if the system is idle longer than a preset time. If so it will then unsubscribe/stop the stream</description>
+    <disclaimer lang="en">Free to use, no warranty, etc. Visit https://github.com/andyb2000/ for latest</disclaimer>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <website>https://github.com/andyb2000</website>
   </extension>
 </addon>
