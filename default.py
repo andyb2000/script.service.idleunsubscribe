@@ -2,8 +2,8 @@ import xbmc, time, xbmcgui, xbmcaddon
 
 # idle time in minutes
 settings = xbmcaddon.Addon(id='script.service.idleunsubscribe')
-IDLE_TIME_MIN = settings.getSetting("idletime")
-print("idleunsubscribe: Loaded idletime from settings %d" % IDLE_TIME_MIN)
+IDLE_TIME_MIN = int(settings.getSetting("idletime"))
+print("idleunsubscribe: Loaded idletime from settings: %d" % IDLE_TIME_MIN)
 if not IDLE_TIME_MIN: IDLE_TIME_MIN = 60
 s = 1
 while True:
