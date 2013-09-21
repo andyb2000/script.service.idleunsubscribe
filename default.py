@@ -16,10 +16,10 @@ while True:
 		print("idleunsubscribe: Playback running, I'm going to idle for %d ms" % s)
 		timer = 0
 		while timer < s:
-			print("idleunsubscribe: count %d ms < %d ms" % (timer, s))
+			# print("idleunsubscribe: count %d ms < %d ms" % (timer, s))
 			it = xbmc.getGlobalIdleTime()
 			if (xbmc.Player().isPlaying()):
-				print("idleunsubscribe: Playback still taking place")
+				# print("idleunsubscribe: Playback still taking place")
 				if (it < 3):
 					print("idleunsubscribe: Idle timer less than 3 seconds (%d), reset timer" % it)
 					xbmc.sleep(5000)
@@ -52,4 +52,4 @@ while True:
 			print('idleunsubscribe: Playback stopped')
 	else:
 		xbmc.sleep(5000)
-		print('idleunsubscribe: Loop without playback')
+		# print('idleunsubscribe: Loop without playback')
