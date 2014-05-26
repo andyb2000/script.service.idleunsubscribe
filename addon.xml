@@ -4,7 +4,7 @@
        version="0.1"
        provider-name="andyb2000">
   <requires>
-    <import addon="xbmc.python" version="1.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.service"
              library="default.py" start="login">
